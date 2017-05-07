@@ -2,9 +2,214 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <title>Title</title>
 </head>
 <body>
+
+<!-- header - nav -->
+<div class="header hidden-from-mobile">
+    <div class="nav-logo">
+            <img id="logo" src="images/ic-logo.svg"/>
+        <p>
+            <span id="colmar">colmar</span><span id="academy">academy</span>
+        </p>
+    </div>
+    <div class="nav-btn">
+        <nav>
+            
+            <span><a href="#" class="btn">On campus</a></span>
+            <span><a href="#" class="btn">Online</a></span>
+            <span><a href="#" class="btn">For companies</a></span>
+            <span><a href="#" class="btn">Sign in</a></span>
+        </nav>
+    </div>
+</div>
+
+<div class="header-mobile">
+    <img src="images/ic-logo.svg">
+    <img src="images/ic-on-campus.svg">
+    <img src="images/ic-online.svg">
+    <img src="images/ic-login.svg">
+</div>
+
+<!-- Section One -->
+<section class="index-container sectionone">
+
+    <div class="left-container">
+        <img src="images/banner.jpg"/>
+    </div>
+
+    <div class="right-container vcenter">
+        <h1>Learn something new everyday</h1>
+        <p class="text-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="mobile-margin-zero"><a class="btn-starthere" href="#">Start here</a></p>
+
+    </div>
+
+
+
+</section>
+
+<!-- Section Two -->
+<section class="index-container sectiontwo">
+
+    <div class="left-container sectiontwo-left">
+        <img src="images/information-main.jpg"/>
+        <h1>It doesn't hurt to keep practicing</h1>
+        <p class="text-description">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. phasellus sed consquat ex. Etiam eget magna laoreet, efficitur dolor consequat, trisitque ligula."</p>
+        <p>Emanuel, Sr Strategist at Hiring.com</p>
+    </div>
+
+    <div class="right-container sectiontwo-right">
+
+        <div class="box-readmore">
+            <div class="readmore-left">
+                <img src="images/information-orientation.jpg"/>
+            </div>
+            <div class="readmore-left-mobile">
+                <img src="images/information-orientation-mobile.jpg"/>
+            </div>
+            <div class="readmore-right">
+                <h2>Orientation Date</h2>
+                <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                <a class="readmore-btn" href="#">Read more</a>
+            </div>
+        </div>
+        <div class="box-readmore">
+            <div class="readmore-left">
+                <img src="images/information-campus.jpg"/>
+            </div>
+            <div class="readmore-left-mobile">
+                <img src="images/information-campus-mobile.jpg"/>
+            </div>
+            <div class="readmore-right">
+                <h2>Our campus</h2>
+                <p>Find which campus is close by you</p>
+                <a class="readmore-btn" href="#">Read more</a>
+            </div>
+        </div>
+        <div class="box-readmore">
+            <div class="readmore-left">
+                <img src="images/information-guest-lecture.jpg"/>
+            </div>
+            <div class="readmore-left-mobile">
+                <img src="images/information-guest-lecture-mobile.jpg"/>
+            </div>
+            <div class="readmore-right">
+                <h2>Our guest lecture</h2>
+                <p>Join a keynote with Oliver Sack about music in medical Treatment</p>
+                <a class="readmore-btn" href="#">Read more</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section Three -->
+<section class="index-container sectionthree">
+    <div class="section-title">
+        <h1>Start Learning</h1>
+    </div>
+    <div class="sectionthree-bottomcontainer">
+        <div class="table">
+            <div class="learning-box">
+                <img src="images/course-software.jpg"/>
+                <div class="learning-description">
+                    <h2>Sofrware engineering</h2>
+                    <p>COURSES</p>
+                    <p>Web Development, Mobile Development, iOT, APIs</p>
+                </div>
+            </div>
+            <div class="learning-box">
+                <img src="images/course-computer-art.jpg"/>
+                <div class="learning-description">
+                    <h2>Computer art</h2>
+                    <p>COURSES</p>
+                    <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+                </div>
+            </div>
+            <div class="learning-box">
+                <img src="images/course-design.jpg"/>
+                <div class="learning-description">
+                    <h2>Design</h2>
+                    <p>COURSES</p>
+                    <p>User Experience Design, User Research, Visual Design</p>
+                </div>
+            </div>
+            <div class="learning-box">
+                <img src="images/course-data.jpg"/>
+                <div class="learning-description">
+                    <h2>Data</h2>
+                    <p>COURSES</p>
+                    <p>Data Science, Big Data, SQL Data Visualization</p>
+                </div>
+            </div>
+            <div class="learning-box">
+                <img src="images/course-business.jpg"/>
+                <div class="learning-description">
+                    <h2>Business</h2>
+                    <p>COURSES</p>
+                    <p>Product Development Business Development Startup</p>
+                </div>
+            </div>
+            <div class="learning-box">
+                <img src="images/course-marketing.jpg"/>
+                <div class="learning-description">
+                    <h2>Marketing</h2>
+                    <p>COURSES</p>
+                    <p>Analytics, Content Marketing Mobile Marketing</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section Four -->
+<div class="section-title section-title-mobile">
+    <h1>Thesis exhibit</h1>
+</div>
+<section class="index-container sectionfour">
+    <div class="left-container hidden-from-mobile">
+        <video src="videos/thesis.mp4" controls></video>
+        <h1>Reimagine urban</h1>
+        <p class="text-description">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. phasellus sed consquat ex. Etiam eget magna laoreet, efficitur dolor consequat, trisitque ligula."</p>
+    </div>
+    <video class=" video-mobile" src="videos/thesis.mp4" controls></video>
+    <div class="right-container hidden-from-mobile">
+
+        <div class="box-readmore fisma">
+            <div class="readmore-left">
+                <img src="images/thesis-fisma.jpg"/>
+            </div>
+            <div class="readmore-right">
+                <h2>Fisma:Design and</h2>
+                <p>Designer showcase of new prototype product</p>
+            </div>
+        </div>
+        <div class="box-readmore">
+            <div class="readmore-left">
+                <img src="images/thesis-now-and-then.jpg"/>
+            </div>
+            <div class="readmore-right">
+                <h2>Now and then</h2>
+                <p>Research study about New York</p>
+            </div>
+        </div>
+    </div>
+</section>
+    <footer>
+        <div>
+            <p class="footer-text">© 2016 Colmar Academy. All rights reserved</p>
+        </div>
+        <div class="footer-link hidden-from-mobile">
+            <a class="terms">Terms</a>
+            <a class="privacy" href="">Privacy</a>
+        </div>
+
+    </footer>
 
 </body>
 </html>

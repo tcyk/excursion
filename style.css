@@ -1,0 +1,415 @@
+html {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    font-size: 1em;
+    margin: 0;
+}
+
+p {
+    margin-top: 8px;
+}
+
+.vcenter {
+    margin: auto 0;
+
+}
+
+/* Header & Nav */
+.header {
+    height: 64px;
+    width: 100%;
+    align-items: center;
+    position: relative;
+
+}
+
+#logo {
+    height: 50px;
+    width: auto;
+    margin-left: 24px;
+}
+
+#colmar, #academy {
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+#academy {
+    color: darkgray;
+}
+
+.nav-logo {
+    display: flex;
+    position: absolute;
+    top:10%;
+}
+
+.nav-btn {
+    display: flex;
+    margin-top: 32px;
+    margin-left: 24px;
+    position: absolute;
+    bottom: 40%;
+    right: 0px;
+    color: black;
+}
+
+.btn {
+    margin-right: 16px;
+    font-size: 1.2em;
+}
+
+.header-mobile {
+    display: flex;
+    justify-content: space-around;
+    height: 64px;
+}
+
+/* Section One */
+.index-container {
+    background-color: darkgray;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.index-container img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.right-container {
+    position: relative;
+}
+
+.btn-starthere {
+    color: white;
+    background-color: black;
+    font-size: 1.2em;
+}
+
+/* Section Two */
+.sectiontwo {
+    background-color: white;
+
+}
+
+.sectiontwo-left h1 {
+    margin-top: 32px;
+}
+.text-description {
+    margin-bottom: 24px;
+    margin-top: 24px;
+
+}
+
+.sectiontwo-right {
+    margin-top: 16px;
+}
+
+.box-readmore {
+    width: 423px;
+    height: auto;
+    flex: 1;
+    padding: 16px 16px;
+    display: flex;
+}
+
+
+.readmore-left {
+    flex: 1;
+    max-width: 35%;
+    margin: 0 auto;
+    margin-right: 16px;
+}
+.readmore-right {
+    flex: 1;
+}
+
+.readmore-btn {
+    color: deepskyblue;
+}
+
+/* Section Three */
+.sectionthree {
+    flex-direction: column;
+    background-color: lightgrey;
+}
+
+.sectionthree-bottomcontainer {
+    padding: 0 64px 32px 64px;
+    display: flex;
+    flex-direction: column;
+}
+.section-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: grey;
+    padding: 32px 0 32px 0;
+}
+
+.table {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.learning-box {
+    flex-basis: 30%;
+    margin-right: 32px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.learning-box img {
+    width: 100%;
+    height: auto;
+    flex: 1;
+}
+
+.learning-description {
+    background-color: white;
+    padding: 16px 16px 24px 16px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    flex: 1;
+    }
+
+.learning-description h2 {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.learning-description p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+/* Section Four */
+.sectionfour {
+    background-color: White;
+}
+
+.index-container video {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.sectionfour .left-container, .sectionfour .right-container {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.fisma {
+    background-color: lightgrey;
+}
+.sectionfour h1 {
+    margin-top: 32px;
+}
+
+.sectionfour .text-description {
+    margin-bottom: 0;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text {
+    margin: 12px 0 36px 24px;
+    color: grey;
+}
+
+.footer-link {
+    margin: 12px 24px 36px 0;
+}
+
+.terms, .privacy {
+    color: grey;
+    margin-left: 16px;
+}
+
+/* MOBILE DISPLAYS */
+@media only screen and (max-width: 800px){
+
+    .hidden-from-mobile {
+        display: none;
+    }
+
+    .index-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-container {
+        padding: 0;
+        overflow: hidden;
+        width: 100%;
+        height: 180px;
+
+    }
+
+    .left-container img {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .sectionone .right-container {
+        padding: 32px 16px 32px 16px;
+    }
+
+    .btn-starthere {
+        padding: 8px 30%;
+        margin: 0;
+    }
+
+    .sectiontwo .left-container {
+        display: none;
+    }
+
+    .sectiontwo .right-container {
+        margin: 0;
+        margin-bottom: 32px;
+    }
+
+    .sectiontwo .box-readmore {
+        flex-direction: column;
+        padding: 16px 16px 0 16px;
+    }
+
+    .sectiontwo .readmore-left {
+        margin:0;
+        max-width: 100%;
+        display: none;
+
+    }
+
+    .sectiontwo .readmore-right {
+        margin-top: 16px;
+        padding-left: 16px;
+    }
+
+    .sectiontwo .box-readmore {
+        width: auto;
+    }
+
+    body .sectionthree {
+        background-color: white;
+        border-top: 1px lightgrey solid;
+        margin-bottom: 28px;
+    }
+
+    .sectionthree .section-title {
+        padding: 32px 0 12px 0;
+    }
+
+    .sectionthree .learning-box img {
+        display: none;
+    }
+
+    .sectionthree .learning-description p {
+        display: none;
+    }
+
+    .sectionthree .table {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionthree .learning-description {
+        padding: 16px;
+        background-color: lightgrey;
+    }
+
+    .sectionthree .learning-box {
+        margin: 4px 16px 4px 16px ;
+        dis
+    }
+
+    .sectionthree .sectionthree-bottomcontainer {
+        padding: 0;
+    }
+
+    .section-title-mobile {
+        border-top: 1px solid lightgrey;
+    }
+
+    .video-mobile {
+        width: 100%;
+        height: auto;
+        margin-bottom: 24px;
+    }
+
+    .footer-text {
+        margin: 16px 0 16px 0;
+    }
+
+}
+
+/* DESKTOP DISPLAYS */
+@media only screen and (min-width: 800px){
+    .header-mobile {
+        display: none;
+    }
+
+    .left-container {
+        display: block;
+        max-width: 50%;
+        padding: 32px 40px 32px 24px;
+    }
+
+    .btn-starthere {
+        padding: 8px 30%;
+    }
+
+    .readmore-left-mobile {
+        display: none;
+    }
+
+    .table .learning-box:nth-child(n+4) {
+        margin-bottom: 0;
+    }
+
+    .hidden-from-desktop {
+        display: none;
+    }
+
+    .sectionfour .video-mobile {
+        display: none;
+    }
+
+    footer {
+        border-top: 1px lightgrey solid;
+    }
+}
